@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, sans-serif;
+}
+#img {
+    width: 100px;
+    height: auto;
+}
+#title {
+    color: blue;
+}
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+}
+#course {
+    font-weight: bold;
+}
